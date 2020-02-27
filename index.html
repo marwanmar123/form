@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form id="myForm" onsubmit="return myFunction();">
+        <div>
+            <label for="myName">name</label>
+            <input id="myName" type="text">
+        </div><br>
+        <div>
+            <label for="myEmail">email</label>
+            <input id="myEmail" type="text">
+        </div><br>
+        <div>
+            <label for="myPass">password</label>
+            <input id="myPass" type="password">
+        </div><br>
+        <div>
+            <label for="myPass2">confirme password</label>
+            <input id="myPass2" type="password">
+        </div><br>
+        <div>
+            <textarea id="textErea" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="envoyer">
+        </div>
+        <div id="myTxt"></div>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
